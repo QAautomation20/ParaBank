@@ -7,7 +7,7 @@ import org.openqa.selenium.support.How;
 
 public class LoginPage extends BasePage {
 	WebDriver driver;
-
+	
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 		//bridge to connect browser factory to the login page
@@ -68,8 +68,8 @@ public class LoginPage extends BasePage {
 	//Login
 	//U:Honhaar P:student 
 	public void logintobank() {
-		UserName.sendKeys("Honhaar");
-		Password.sendKeys("student");
+		UserName.sendKeys("username");
+		Password.sendKeys("password");
 		LogInButton.click();
 	}
 	public void ForgotLoginInfo(){
