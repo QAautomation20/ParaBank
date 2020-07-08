@@ -24,7 +24,7 @@ public class BasePage {
 	public static void getpropertyfile() throws IOException{
 		try{
 		prop = new Properties();
-		FileInputStream fi = new FileInputStream("./bank/src/main/java/pages/data.properties");
+		FileInputStream fi = new FileInputStream(System.getProperty("user.dir")+"./bank/src/main/java/pages/data.properties");
 		prop.load(fi);
 		}
 		catch (FileNotFoundException e){
