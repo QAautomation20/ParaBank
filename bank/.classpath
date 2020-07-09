@@ -23,13 +23,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
->>>>>>> refs/remotes/origin/Sumitra
-=======
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
->>>>>>> refs/remotes/origin/Niraj
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
